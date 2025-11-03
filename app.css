@@ -23,7 +23,7 @@ Poppins
 PRIMARY
 Base: #339af0
 Tint: #d0ebff
-Shade: 1c7ed6
+Shade: #1c7ed6
 
 
 SECONDARY
@@ -97,4 +97,27 @@ a {
 
 ul {
     list-style: none;
+}
+
+.btn {
+    font-weight: 400;
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.btn-primary:link, .btn-primary:visited {
+    color: #339af0 ;
+}
+
+.btn-primary:hover, .btn-primary:active {
+    color: #1c7ed6;
+}
+
+.btn-secondary:link, .btn-secondary:visited {
+    color: #9775fa;
+}
+
+.btn-secondary:hover, .btn-secondary:active {
+    color: #7048e8;
 }
