@@ -47,23 +47,28 @@ Shade: #212529
 */
 
 
+/* ----------- GLOBAL STYLES ----------- */
+
+body {
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.5; 
+    color: #495057;
+}
+
 
 h1, h2, h3, h4, h5 {
     font-weight: 700;
-    letter-spacing: -2px;
-    font-family: 'poppins', sans-serif;
-    color: #212529;
-    
+    letter-spacing: -2px;    
+    color: #212529;    
 }
 
 
 h1 {
-    text-align: center;
     font-size: 62px;
 }
 
 h2 {
-    text-align: center;
     font-size: 48px;
 }
 
@@ -79,12 +84,6 @@ h5 {
     font-size: 24px; 
 }
 
-p, a {
-    font-weight: 400;
-    line-height: 1.5;
-    font-family: 'poppins', sans-serif; 
-    color: #495057;
-}
 
 p {
     font-size: 20px;
@@ -99,9 +98,11 @@ ul {
     list-style: none;
 }
 
+
+/* ----------- COMPONENTS----------- */
+
 .btn {
     font-weight: 400;
-    font-family: 'poppins', sans-serif;
     font-size: 16px;
     text-decoration: none;
 }
@@ -120,4 +121,31 @@ ul {
 
 .btn-secondary:hover, .btn-secondary:active {
     color: #7048e8;
+}
+
+
+/* ----------- SECTIONS----------- */
+
+/* ---- HERO SECTION ---- */
+
+.hero-section {
+    text-align: center;
+}
+
+/* ---- CTA SECTION ---- */
+
+.cta-section {
+    text-align: center;
+}
+
+/* ---- FOOTER ---- */
+
+.footer {
+    text-align: center;
+}
+
+/* ---- FEARTURES SECTION ---- */
+
+.features-main-heading {
+    text-align: center;
 }
