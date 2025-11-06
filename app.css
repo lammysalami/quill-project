@@ -42,6 +42,8 @@ GREY
 Base: #495057
 Tint: #f1f3f5
 Shade: #212529
+white: #fff
+black: #000
 
 
 */
@@ -102,13 +104,12 @@ ul {
 /* ----------- COMPONENTS----------- */
 
 .btn {
-    font-weight: 400;
     font-size: 16px;
     text-decoration: none;
 }
 
 .btn-primary:link, .btn-primary:visited {
-    color: #339af0 ;
+    color: #339af0;
 }
 
 .btn-primary:hover, .btn-primary:active {
@@ -116,11 +117,13 @@ ul {
 }
 
 .btn-secondary:link, .btn-secondary:visited {
-    color: #9775fa;
+    color: #fff;
+    background-color: #9775fa;
 }
 
 .btn-secondary:hover, .btn-secondary:active {
-    color: #7048e8;
+    color: #fff;
+    background-color: #7048e8;
 }
 
 
