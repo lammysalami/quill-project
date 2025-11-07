@@ -64,6 +64,8 @@ black: #000
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -110,12 +112,16 @@ p {
 a {
     text-decoration: none;
     font-size: 16px;
+    display: inline-block;
 }
 
 ul {
     list-style: none;
 }
 
+span {
+    display: inline-block;
+}
 
 /* ----------- COMPONENTS----------- */
 
@@ -204,13 +210,48 @@ ul {
 
 .hero-section {
     text-align: center;
+    margin-bottom: 300px;
 }
+
+.hero-heading {
+    margin-bottom: 10px;
+}
+
+.hero-paragraph {
+    margin-bottom: 50px;
+}
+
+
+
+/* ---- FEARTURES SECTION ---- */
+
+.features-section {
+    margin-bottom: 300px;
+}
+
+.features-main-heading {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.feature-headings{
+    margin-bottom: 20px;
+}
+
+.feature-img {
+    width: 400px;
+}
+
+
+
 
 /* ---- CTA SECTION ---- */
 
 .cta-section {
-    text-align: center;
+    /* text-align: center; */
+    margin-bottom: 300px;
 }
+
 
 .cta-card {
     text-align: center;
@@ -218,6 +259,10 @@ ul {
     width: 1000px;
     padding: 100px 200px;
     border-radius: 20px;
+}
+
+.cta-heading {
+    margin-bottom: 30px;
 }
 
 /* ---- FOOTER ---- */
@@ -232,12 +277,3 @@ ul {
 
 
 
-/* ---- FEARTURES SECTION ---- */
-
-.features-main-heading {
-    text-align: center;
-}
-
-.feature-img {
-    width: 400px;
-}
