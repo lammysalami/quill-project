@@ -307,7 +307,7 @@ span {
 
 
 
-/* ---- FEARTURES SECTION ---- */
+/* ---- FEATURES SECTION ---- */
 
 .features-section {
     margin-bottom: 30rem;
@@ -321,6 +321,8 @@ span {
 .features-grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    row-gap: 15rem;
+    column-gap: 5rem;
 }
 
 .feature-headings{
